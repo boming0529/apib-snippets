@@ -17,7 +17,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "apiblueprint.json",
+        "language": "apiblueprint",
         "path": "./snippets/apiblueprint.json"
       }
     ]
