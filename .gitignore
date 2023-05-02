@@ -1,0 +1,7 @@
+node_modules
+*.vsix
+# OS metadata
+.DS_Store
+# vscode
+.vscode/ 
+vsc-extension-quickstart.md
