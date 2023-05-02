@@ -2,18 +2,18 @@
 	"APIB Init": {
 		"prefix": "apib-init",
 		"body": [
-		  	"FORMAT: 1A",
-		  	"HOST: ${1:Host Name}",
-		  	""
+		  "FORMAT: 1A",
+			"HOST: ${1:Host Name}",
+	  	""
 		],
 		"description": "Create an API Blueprint Init"
 	},
 	"APIB Group": {
 		"prefix": "apib-group",
 		"body": [
-		  	"# Group ${1:Group Name}",
-		  	"",
-		  	"${2:description}",
+		  "# Group ${1:Group Name}",
+			"",
+	  	"${2:description}",
 			""
 		],
 		"description": "Create an API Blueprint group"
@@ -44,7 +44,7 @@
 			"    + Body",
 			"",
 			"            ${8:Response Body}",
-			"",
+			""
 		],
 		"description": "Create an API Blueprint resource with request and response"
 	},
@@ -70,7 +70,7 @@
 			"    + Body",
 			"",
 			"            ${8:Response Body}",
-			"",
+			""
 		],
 		"description": "Create an API Blueprint resource with Bearer Token"
 	},
@@ -80,7 +80,7 @@
 			"    + Headers",
 			"",
 			"        Authorization: Bearer your_access_token",
-			"",
+			""
 		],
 		"description": "Add Bearer Token"
 	},
@@ -104,7 +104,7 @@
 		  "                \"message\": \"error message\",",
 		  "                \"data\": null",
 		  "            }",
-		  "",
+		  ""
 		],
 		"description": "APIB Get request"
 	},
@@ -128,7 +128,7 @@
 		  "                \"message\": \"error message\",",
 		  "                \"data\": null",
 		  "            }",
-		  "",
+		  ""
 		],
 		"description": "APIB List request"
 	},
@@ -155,7 +155,7 @@
 		  "                \"message\": \"error message\",",
 		  "                \"data\": null",
 		  "            }",
-		  "",
+		  ""
 		],
 		"description": "APIB Create request"
 	},
@@ -182,7 +182,7 @@
 		  "                \"message\": \"error message\",",
 		  "                \"data\": null",
 		  "            }",
-		  "",
+		  ""
 		],
 		"description": "APIB Update request (PUT)"
 	},
@@ -209,7 +209,7 @@
 		  "                \"message\": \"error message\",",
 		  "                \"data\": null",
 		  "            }",
-		  "",
+		  ""
 		],
 		"description": "APIB Update request (PATCH)"
 	},
@@ -229,7 +229,7 @@
 		  "                \"message\": \"error message\",",
 		  "                \"data\": null",
 		  "            }",
-		  "",
+		  ""
 		],
 		"description": "APIB Delete request"
 	},
@@ -283,7 +283,7 @@
             "            }"
         ],
         "description": "Add a 401 Unauthorized response"
-	},
+	}
 }
 
 
